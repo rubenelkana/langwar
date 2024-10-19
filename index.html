@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lang War - Learning English with Quiz Game</title>
+    <link rel="stylesheet" href="assets/games/style.css">
+</head>
+<body>
+
+    <!-- Header Container -->
+    <div id="header-container" style="display:none;"> <!-- Initially hidden -->
+        <div class="logo-header-container">
+            <img class="logo-header" alt="logo-header" src="assets/games/logo.png"/>
+        </div>
+        <div class="game-info">
+            <p id="score">Score: 0</p>
+            <p id="timer">Time left: 10</p>
+            <div id="lives">Lives: 3</div>
+        </div>
+    </div>
+
+    <div id="game-container">
+        <h1><img class="logo-body" alt="logo" src="assets/games/logo.png"/></h1>
+        <div id="difficulty-container">
+            <button class="difficulty-btn" id="easy-btn">Easy</button>
+            <button class="difficulty-btn" id="medium-btn">Medium</button>
+            <button class="difficulty-btn" id="hard-btn">Hard</button>
+        </div>
+        <button id="start-button" disabled>Start Game</button> <!-- Initially disabled -->
+        <div id="loading-page" style="display:none;">
+            <p>Loading... Please wait</p>
+        </div>
+        <div id="question-container" style="display:none;">
+            <p id="question"></p>
+            <img id="question-image" src="" alt="Question Image" style="display:none; max-width: 100%;" />
+            <audio id="question-sound" controls style="display: none;"></audio>
+        </div>
+        <div id="choices-container" style="display:none;"> <!-- Hidden initially -->
+            <button class="choice-btn" id="choice1"></button>
+            <button class="choice-btn" id="choice2"></button>
+            <button class="choice-btn" id="choice3"></button>
+            <button class="choice-btn" id="choice4"></button>
+        </div>
+        <div id="result-container" style="display:none;"> <!-- Hidden initially -->
+            <h2>Game Over!</h2>
+            <p id="final-score">Your final score is: 0</p>
+        </div>
+    </div>
+
+    <!-- Include questions.js first, then script.js -->
+    <script src="assets/questions/questions.js"></script>
+    <script src="assets/games/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,220 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #46A7B9;
+    text-align: center;
+}
+/* Ensure the padding and borders are included in the width calculation */
+#header-container {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    border-bottom: 2px solid #000;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sticky effect */
+    width: 100%;
+    box-sizing: border-box; /* Fixes the overflow issue */
+}
+
+/* Ensure the logo stays aligned properly */
+.logo-header-container {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0; /* Prevents the logo from shrinking */
+}
+
+.logo-header {
+    width: 50px;
+    height: auto;
+}
+
+/* Adjust the game info section to make it responsive */
+.game-info {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+/* Ensure game info items have enough space and are responsive */
+#score, #timer, #lives {
+    margin: 0;
+    font-size: 1.2em;
+    white-space: nowrap;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 600px) {
+    #header-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .game-info {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Media query for smartphone screens */
+@media (max-width: 600px) {
+    #game-container {
+        width: calc(100% - 40px); /* Full width minus padding */
+    }
+}
+
+.logo-body {
+    max-width: 30%; /* Adjust the width to make the logo smaller */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure it behaves like a block element */
+    margin: 0 auto; /* Center the logo horizontally */
+    border-radius: 15px; /* Add border radius for rounded corners */
+    border: 2px solid #19617C; /* Optional: Add a border around the logo */
+}
+
+/* Optional: Style the h1 to center the logo */
+h1 {
+    text-align: center; /* Center-align the text inside the h1 */
+    margin: 0; /* Remove default margin */
+    margin-bottom: 20px;
+}
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+button:disabled {
+    background-color: #cccccc; /* Gray color for disabled state */
+    cursor: not-allowed; /* Show not-allowed cursor when hovering over the disabled button */
+}
+
+button.disabled {
+    background-color: #cccccc; /* Additional class for visual indication */
+    cursor: not-allowed;
+}
+
+#start-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #E38318;
+    border: 2px solid #121622;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px; /* Adjust the margin to space it from other elements */
+}
+
+#start-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+
+#difficulty-container {
+    margin-bottom: 20px;
+    display: flex; /* Use flexbox to arrange buttons horizontally */
+    justify-content: center; /* Center them horizontally */
+    flex-wrap: wrap; /* Allow wrapping if the screen is too narrow */
+}
+
+.difficulty-btn {
+    background-color: #E38318;
+    border: 2px solid #121622;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.difficulty-btn:hover {
+    background-color: #915c1e;
+}
+
+.difficulty-btn.selected {
+    background-color: #46A7B9; /* Change color to green when selected */
+}
+
+#loading-page {
+    position: fixed;
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    z-index: 9999;
+}
+
+#question-container {
+    margin-bottom: 20px;
+}
+
+#question-image {
+    display: none; /* Initially hidden */
+    max-width: 100%; /* Ensure it fits within the container */
+    height: auto; /* Maintain aspect ratio */
+    justify-content: center;
+}
+
+.choice-btn {
+    width: 100%;
+    margin: 5px 0;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #F5E7C7;
+    border: 5px solid #145A74;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.choice-btn:hover {
+    background-color: #9f9888;
+}
+
+#info {
+    margin-top: 20px;
+}
+
+#timer {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+#result-container {
+    text-align: center;
+    background-color: #145A74;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    width: calc(100% - 10px);
+}
+
+#result-container h2 {
+    color: #fff;
+    font-size: 24px;
+}
+
+#result-container p {
+    font-size: 18px;
+    color: #fff;
+}
