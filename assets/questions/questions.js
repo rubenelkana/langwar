@@ -16,6 +16,1692 @@ const easyQuestions = [
         correct: "Green"
     },
     {
+        type: ["text", "image"],
+        image: "assets/questions/easy-1.jpeg",
+        sound: null,
+        question: "What color is the sky?",
+        choices: ["Green", "Blue", "Red", "Yellow"],
+        correct: "Blue"
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-1.jpeg",
+        sound: null,
+        question: "What color is the cloud?",
+        choices: ["Black", "White", "Gray", "Brown"],
+        correct: "White"
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-1.jpeg",
+        sound: null,
+        question: "What do we call the white color in the sky?",
+        choices: ["Mist", "Cloud", "Sky", "Sun"],
+        correct: "Cloud"
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-1.jpeg",
+        sound: null,
+        question: "What shape do the clouds often take?",
+        choices: ["Square", "Round", "Fluffy", "Flat"],
+        correct: "Fluffy"
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-1.jpeg",
+        sound: null,
+        question: "What do you usually see in the sky during the day?",
+        choices: ["Stars", "Moon", "Clouds", "Northern Lights"],
+        correct: "Clouds"
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-1.jpeg",
+        sound: null,
+        question: "What time of day is usually associated with a clear blue sky?",
+        choices: ["Morning", "Afternoon", "Evening", "Night"],
+        correct: "Afternoon"
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-3.webp",
+        sound: null,
+        question: "Where we can found fish?",
+        choices: ["Mountain", "Tree", "Lake", "Sky"],
+        correct: "Lake"
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-3.webp",
+        sound: null,
+        question: "What natural body of water is visible?",
+        choices: ["River", "Ocean", "Lake", "Pond"],
+        correct: "Lake"
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-3.webp",
+        sound: null,
+        question: "What color are the trees?",
+        choices: ["Red", "Brown", "Green", "Yellow"],
+        correct: "Green"
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-3.webp",
+        sound: null,
+        question: "What type of environment is depicted in the image?",
+        choices: ["Urban", "Desert", "Forest", "Rural"],
+        correct: "Forest"
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-3.webp",
+        sound: null,
+        question: "What element indicates fresh water in the image?",
+        choices: ["Tree", "Lake", "Mountain", "Sun"],
+        correct: "Lake"
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-3.webp",
+        sound: null,
+        question: "What is a common activity people do at a lake?",
+        choices: ["Hiking", "Swimming", "Shopping", "Driving"],
+        correct: "Swimming"
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-4.webp",
+        sound: null,
+        question: "What activity are the people participating in?",
+        choices: ["Running", "Swimming", "Cycling", "Walking"],
+        correct: "Cycling"
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-4.webp",
+        sound: null,
+        question: "What is the role of the people on the side of the track?",
+        choices: ["Racing", "Watching", "Coaching", "Competing"],
+        correct: "Watching"
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-4.webp",
+        sound: null,
+        question: "What type of event is being held?",
+        choices: ["Competition", "Training", "Festival", "Concert"],
+        correct: "Competition"
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-4.webp",
+        sound: null,
+        question: "What might the cyclists wear for safety?",
+        choices: ["Hats", "Helmets", "Knife", "Sandals"],
+        correct: "Helmets"
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-4.webp",
+        sound: null,
+        question: "What might be the mood of the crowd?",
+        choices: ["Bored", "Excited", "Angry", "Tired"],
+        correct: "Excited"
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-4.webp",
+        sound: null,
+        question: "How many cyclists can you see in the image?",
+        choices: ["One", "Two", "Several", "None"],
+        correct: "Several"
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-5.webp",
+        sound: null,
+        question: "What are the people doing in the image?",
+        choices: ["Dancing", "Sleeping", "Talking", "Working"],
+        correct: "Talking"
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-5.webp",
+        sound: null,
+        question: "How many people are in the image?",
+        choices: ["Two", "Three", "Four", "Five"],
+        correct: "Four"
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-5.webp",
+        sound: null,
+        question: "What expression do the people have?",
+        choices: ["Angry", "Sad", "Smiling", "Bored"],
+        correct: "Smiling"
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-5.webp",
+        sound: null,
+        question: "What are the people holding in their hands?",
+        choices: ["Books", "Glasses", "Phones", "Plates"],
+        correct: "Glasses"
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-5.webp",
+        sound: null,
+        question: "What are their condition?",
+        choices: ["Sitting", "Standing", "Walking", "Running"],
+        correct: "Sitting"
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-5.webp",
+        sound: null,
+        question: "What is the mood of the group in the image?",
+        choices: ["Joyful", "Tense", "Serious", "Lonely"],
+        correct: "Joyful"
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-6.jpg",
+        sound: null,
+        question: "What sport are the people playing?",
+        choices: ["Football", "Basketball", "Baseball", "Tennis"],
+        correct: "Basketball",
+        tags: ["basketball", "sport"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-6.jpg",
+        sound: null,
+        question: "How many players are in red color?",
+        choices: ["One", "Two", "Three", "Four"],
+        correct: "Two",
+        tags: ["basketball", "sport"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-6.jpg",
+        sound: null,
+        question: "What is one of the players holding?",
+        choices: ["A racket", "A ball", "A glove", "A bat"],
+        correct: "A ball",
+        tags: ["basketball", "sport"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-6.jpg",
+        sound: null,
+        question: "What color are the opposing players wearing?",
+        choices: ["Blue", "White", "Green", "Black"],
+        correct: "White",
+        tags: ["basketball", "sport"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-6.jpg",
+        sound: null,
+        question: "What is the role of the person who use whistle?",
+        choices: ["Player", "Coach", "Referee", "Spectator"],
+        correct: "Referee",
+        tags: ["basketball", "sport"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-6.jpg",
+        sound: null,
+        question: "What is happening in the image?",
+        choices: ["A training session", "A basketball game", "A timeout", "A halftime show"],
+        correct: "A basketball game",
+        tags: ["basketball", "sport"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-6.jpg",
+        sound: null,
+        question: "How many spectators can be seen?",
+        choices: ["None", "A few", "Many", "One"],
+        correct: "Many",
+        tags: ["basketball", "sport"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-6.jpg",
+        sound: null,
+        question: "Which team have the ball?",
+        choices: ["Red team", "White team", "Neither", "Both teams"],
+        correct: "Red team",
+        tags: ["basketball", "sport"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-6.jpg",
+        sound: null,
+        question: "What type of court are they playing on?",
+        choices: ["Soccer field", "Tennis court", "Basketball court", "Baseball field"],
+        correct: "Basketball court",
+        tags: ["basketball", "sport"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-6.jpg",
+        sound: null,
+        question: "What could the spectators be doing?",
+        choices: ["Eating", "Cheering", "Sleeping", "Leaving"],
+        correct: "Cheering",
+        tags: ["basketball", "sport"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-7.jpg",
+        sound: null,
+        question: "What is the family doing?",
+        choices: ["Eating", "Playing", "Watching TV", "Cooking"],
+        correct: "Eating",
+        tags: ["eat", "family", "grandpa", "grandma", "parent", "parenting", "father", "mother", "kid"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-7.jpg",
+        sound: null,
+        question: "How many generations are present in the image?",
+        choices: ["One", "Two", "Three", "Four"],
+        correct: "Three",
+        tags: ["eat", "family", "grandpa", "grandma", "parent", "parenting", "father", "mother", "kid"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-7.jpg",
+        sound: null,
+        question: "Who is likely the youngest member of the family?",
+        choices: ["Grandpa", "Grandma", "Father", "Daughter"],
+        correct: "Daughter",
+        tags: ["eat", "family", "grandpa", "grandma", "parent", "parenting", "father", "mother", "kid"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-7.jpg",
+        sound: null,
+        question: "What are the adults likely doing while the child eats?",
+        choices: ["Sleeping", "Talking", "Watching TV", "Cooking"],
+        correct: "Talking",
+        tags: ["eat", "family", "grandpa", "grandma", "parent", "parenting", "father", "mother", "kid"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-7.jpg",
+        sound: null,
+        question: "What are they drinking?",
+        choices: ["Juice", "Mineral water", "Soda", "Coffee"],
+        correct: "Mineral water",
+        tags: ["eat", "family", "grandpa", "grandma", "parent", "parenting", "father", "mother", "kid"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-7.jpg",
+        sound: null,
+        question: "How do the family members appear in the image?",
+        choices: ["Angry", "Happy", "Sad", "Tired"],
+        correct: "Happy",
+        tags: ["eat", "family", "grandpa", "grandma", "parent", "parenting", "father", "mother", "kid"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-7.jpg",
+        sound: null,
+        question: "What is likely on the table?",
+        choices: ["Books", "Food", "Toys", "Games"],
+        correct: "Food",
+        tags: ["eat", "family", "grandpa", "grandma", "parent", "parenting", "father", "mother", "kid"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-7.jpg",
+        sound: null,
+        question: "What expression is likely on the child's face?",
+        choices: ["Angry", "Happy", "Surprised", "Bored"],
+        correct: "Happy",
+        tags: ["eat", "family", "grandpa", "grandma", "parent", "parenting", "father", "mother", "kid"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-7.jpg",
+        sound: null,
+        question: "How many family members are sitting at the table?",
+        choices: ["Three", "Four", "Five", "Six"],
+        correct: "Five",
+        tags: ["eat", "family", "grandpa", "grandma", "parent", "parenting", "father", "mother", "kid"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-7.jpg",
+        sound: null,
+        question: "What is a positive aspect of family meals?",
+        choices: ["Less talking", "More food", "Stronger family bonds", "No distractions"],
+        correct: "Stronger family bonds",
+        tags: ["eat", "family", "grandpa", "grandma", "parent", "parenting", "father", "mother", "kid"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-7.jpg",
+        sound: null,
+        question: "What type of atmosphere is likely present at the table?",
+        choices: ["Tense", "Quiet", "Joyful", "Boring"],
+        correct: "Joyful",
+        tags: ["eat", "family", "grandpa", "grandma", "parent", "parenting", "father", "mother", "kid"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-8.jpeg",
+        sound: null,
+        question: "What activity are the kids doing?",
+        choices: ["Playing soccer", "Playing guitar", "Drawing", "Dancing"],
+        correct: "Playing guitar",
+        tags: ["kid", "boy", "guitar", "hobby", "music", "song"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-8.jpeg",
+        sound: null,
+        question: "What type of instrument are the kids playing?",
+        choices: ["Piano", "Violin", "Guitar", "Drums"],
+        correct: "Guitar",
+        tags: ["kid", "boy", "guitar", "hobby", "music", "song"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-8.jpeg",
+        sound: null,
+        question: "How many kids are playing the guitar?",
+        choices: ["One", "Two", "Three", "Four"],
+        correct: "One",
+        tags: ["kid", "boy", "guitar", "hobby", "music", "song"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-8.jpeg",
+        sound: null,
+        question: "What might the kids be learning?",
+        choices: ["Cooking", "Music", "Math", "Sports"],
+        correct: "Music",
+        tags: ["kid", "boy", "guitar", "hobby", "music", "song"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-8.jpeg",
+        sound: null,
+        question: "Which of the following might they be playing?",
+        choices: ["A song", "A game", "A story", "A movie"],
+        correct: "A song",
+        tags: ["kid", "boy", "guitar", "hobby", "music", "song"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-8.jpeg",
+        sound: null,
+        question: "What could the kids be practicing?",
+        choices: ["Singing", "Dancing", "Playing guitar", "Drawing"],
+        correct: "Playing guitar",
+        tags: ["kid", "boy", "guitar", "hobby", "music", "song"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-8.jpeg",
+        sound: null,
+        question: "What skills can playing guitar help develop?",
+        choices: ["Listening skills", "Cooking skills", "Driving skills", "Reading skills"],
+        correct: "Listening skills",
+        tags: ["kid", "boy", "guitar", "hobby", "music", "song"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-9.jpg",
+        sound: null,
+        question: "What type of dance are the kids performing?",
+        choices: ["Hip Hop", "Ballet", "Jazz", "Salsa"],
+        correct: "Ballet",
+        tags: ["kid", "girl", "ballet", "dance", "hobby"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-9.jpg",
+        sound: null,
+        question: "What color are the kids wearing?",
+        choices: ["Red", "Blue", "White", "Pink"],
+        correct: "White",
+        tags: ["kid", "girl", "ballet", "dance", "hobby"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-9.jpg",
+        sound: null,
+        question: "How many kids are in the ballet class?",
+        choices: ["Two", "Three", "Four", "Five"],
+        correct: "Four",
+        tags: ["kid", "girl", "ballet", "dance", "hobby"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-9.jpg",
+        sound: null,
+        question: "What is likely the setting of this activity?",
+        choices: ["At home", "In a park", "In a dance studio", "At a party"],
+        correct: "In a dance studio",
+        tags: ["kid", "girl", "ballet", "dance", "hobby"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-9.jpg",
+        sound: null,
+        question: "What could be a reason for the kids to be taking ballet classes?",
+        choices: ["To learn a skill", "To make friends", "To have fun", "All of the above"],
+        correct: "All of the above",
+        tags: ["kid", "girl", "ballet", "dance", "hobby"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-9.jpg",
+        sound: null,
+        question: "What is one benefit of learning ballet?",
+        choices: ["Improved flexibility", "Better cooking skills", "Stronger voice", "Faster running speed"],
+        correct: "Improved flexibility",
+        tags: ["kid", "girl", "ballet", "dance", "hobby"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-9.jpg",
+        sound: null,
+        question: "What could be an essential skill learned in ballet?",
+        choices: ["Balance", "Cooking", "Drawing", "Writing"],
+        correct: "Balance",
+        tags: ["kid", "girl", "ballet", "dance", "hobby"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-9.jpg",
+        sound: null,
+        question: "What might the kids feel after a ballet class?",
+        choices: ["Tired", "Excited", "Happy", "All of the above"],
+        correct: "All of the above",
+        tags: ["kid", "girl", "ballet", "dance", "hobby"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-10.jpg",
+        sound: null,
+        question: "What is the girl holding in her hand?",
+        choices: ["A book", "A mic", "A pencil", "A toy"],
+        correct: "A mic",
+        tags: ["kid", "girl", "sing", "hobby"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-10.jpg",
+        sound: null,
+        question: "What color is the girl's t-shirt?",
+        choices: ["Blue", "Yellow", "Pink", "Green"],
+        correct: "Pink",
+        tags: ["kid", "girl", "sing", "hobby"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-10.jpg",
+        sound: null,
+        question: "What is the girl doing?",
+        choices: ["Dancing", "Running", "Singing", "Reading"],
+        correct: "Singing",
+        tags: ["kid", "girl", "sing", "hobby"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-10.jpg",
+        sound: null,
+        question: "What hobby might the girl be interested in?",
+        choices: ["Painting", "Singing", "Playing games", "Swimming"],
+        correct: "Singing",
+        tags: ["kid", "girl", "sing", "hobby"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-10.jpg",
+        sound: null,
+        question: "What object is commonly used while singing?",
+        choices: ["Mic", "Pencil", "Brush", "Ball"],
+        correct: "Mic",
+        tags: ["kid", "girl", "sing", "hobby"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-10.jpg",
+        sound: null,
+        question: "What might the girl be singing?",
+        choices: ["A poem", "A speech", "A song", "A story"],
+        correct: "A song",
+        tags: ["kid", "girl", "sing", "hobby"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-10.jpg",
+        sound: null,
+        question: "What is the likely mood of the girl while singing?",
+        choices: ["Sad", "Happy", "Angry", "Scared"],
+        correct: "Happy",
+        tags: ["kid", "girl", "sing", "hobby"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-10.jpg",
+        sound: null,
+        question: "What color is commonly associated with the girl's t-shirt in the image?",
+        choices: ["Red", "Pink", "Purple", "Yellow"],
+        correct: "Pink",
+        tags: ["kid", "girl", "sing", "hobby"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-10.jpg",
+        sound: null,
+        question: "What color is commonly associated with the girl's t-shirt in the image?",
+        choices: ["Red", "Pink", "Purple", "Yellow"],
+        correct: "Pink",
+        tags: ["kid", "girl", "sing", "hobby"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-10.jpg",
+        sound: null,
+        question: "Why might the girl be holding a mic?",
+        choices: ["To write", "To sing", "To draw", "To play"],
+        correct: "To sing",
+        tags: ["kid", "girl", "sing", "hobby"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-10.jpg",
+        sound: null,
+        question: "Which activity is related to using a mic?",
+        choices: ["Running", "Singing", "Drawing", "Jumping"],
+        correct: "Singing",
+        tags: ["kid", "girl", "sing", "hobby"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-10.jpg",
+        sound: null,
+        question: "What might the girl's hobby be?",
+        choices: ["Cooking", "Singing", "Reading", "Swimming"],
+        correct: "Singing",
+        tags: ["kid", "girl", "sing", "hobby"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-10.jpg",
+        sound: null,
+        question: "What color is the t-shirt the girl is wearing?",
+        choices: ["Pink", "Orange", "Green", "Blue"],
+        correct: "Pink",
+        tags: ["kid", "girl", "sing", "hobby"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-10.jpg",
+        sound: null,
+        question: "What is the girl using the mic for?",
+        choices: ["Talking", "Singing", "Reading", "Dancing"],
+        correct: "Singing",
+        tags: ["kid", "girl", "sing", "hobby"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-10.jpg",
+        sound: null,
+        question: "What could be the girl’s favorite activity?",
+        choices: ["Singing", "Running", "Drawing", "Jumping"],
+        correct: "Singing",
+        tags: ["kid", "girl", "sing", "hobby"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-10.jpg",
+        sound: null,
+        question: "What might the girl be doing for fun?",
+        choices: ["Singing", "Reading", "Playing", "Running"],
+        correct: "Singing",
+        tags: ["kid", "girl", "sing", "hobby"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-10.jpg",
+        sound: null,
+        question: "Why might the girl be smiling while holding the mic?",
+        choices: ["She is happy to sing", "She is scared", "She is tired", "She is angry"],
+        correct: "She is happy to sing",
+        tags: ["kid", "girl", "sing", "hobby"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-10.jpg",
+        sound: null,
+        question: "What could be the girl’s emotion while holding the mic?",
+        choices: ["Excited", "Sad", "Bored", "Nervous"],
+        correct: "Excited",
+        tags: ["kid", "girl", "sing", "hobby"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-10.jpg",
+        sound: null,
+        question: "What is an essential tool for a singer?",
+        choices: ["Mic", "Ball", "Brush", "Book"],
+        correct: "Mic",
+        tags: ["kid", "girl", "sing", "hobby"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-10.jpg",
+        sound: null,
+        question: "What might the girl be preparing for?",
+        choices: ["A performance", "A dance", "A game", "A race"],
+        correct: "A performance",
+        tags: ["kid", "girl", "sing", "hobby"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-11.webp",
+        sound: null,
+        question: "What is the woman selling?",
+        choices: ["Phone", "Fruits", "Toys", "Clothes"],
+        correct: "Fruits",
+        tags: ["kid", "woman", "fruit", "job"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-11.webp",
+        sound: null,
+        question: "Who is selling the fruits?",
+        choices: ["A man", "A boy", "A woman", "A grandmother"],
+        correct: "A woman",
+        tags: ["kid", "woman", "fruit", "job"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-11.webp",
+        sound: null,
+        question: "What could be the woman’s job in this image?",
+        choices: ["Doctor", "Fruit seller", "Teacher", "Engineer"],
+        correct: "Fruit seller",
+        tags: ["kid", "woman", "fruit", "job"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-11.webp",
+        sound: null,
+        question: "What might the woman be doing?",
+        choices: ["Selling fruits", "Buying fruits", "Cooking", "Studying"],
+        correct: "Selling fruits",
+        tags: ["kid", "woman", "fruit", "job"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-11.webp",
+        sound: null,
+        question: "What is the main product shown in the image?",
+        choices: ["Shirts", "Fruits", "Books", "Shoes"],
+        correct: "Fruits",
+        tags: ["kid", "woman", "fruit", "job"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-11.webp",
+        sound: null,
+        question: "Who is standing in the image?",
+        choices: ["A kid", "A woman", "A boy", "A man"],
+        correct: "A woman",
+        tags: ["kid", "woman", "fruit", "job"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-11.webp",
+        sound: null,
+        question: "Which type of job is shown in the image?",
+        choices: ["Teacher", "Fruit seller", "Mechanic", "Driver"],
+        correct: "Fruit seller",
+        tags: ["kid", "woman", "fruit", "job"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-11.webp",
+        sound: null,
+        question: "What type of food is the woman selling?",
+        choices: ["Fruits", "Bread", "Meat", "Soup"],
+        correct: "Fruits",
+        tags: ["kid", "woman", "fruit", "job"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-11.webp",
+        sound: null,
+        question: "What kind of business might the woman be running?",
+        choices: ["Restaurant", "Fruit stand", "Toy store", "Bookstore"],
+        correct: "Fruit stand",
+        tags: ["kid", "woman", "fruit", "job"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-11.webp",
+        sound: null,
+        question: "What is the woman likely doing in the image?",
+        choices: ["Selling", "Eating", "Studying", "Playing"],
+        correct: "Selling",
+        tags: ["kid", "woman", "fruit", "job"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-11.webp",
+        sound: null,
+        question: "Which job involves selling fruits?",
+        choices: ["Fruit seller", "Teacher", "Doctor", "Driver"],
+        correct: "Fruit seller",
+        tags: ["kid", "woman", "fruit", "job"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-11.webp",
+        sound: null,
+        question: "What do you think the woman is earning money from?",
+        choices: ["Selling fruits", "Teaching", "Fixing cars", "Dancing"],
+        correct: "Selling fruits",
+        tags: ["kid", "woman", "fruit", "job"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-11.webp",
+        sound: null,
+        question: "What food is the woman likely selling?",
+        choices: ["Fruits", "Vegetables", "Snacks", "Drinks"],
+        correct: "Fruits",
+        tags: ["kid", "woman", "fruit", "job"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-11.webp",
+        sound: null,
+        question: "What is the woman’s main role in this image?",
+        choices: ["Buying", "Selling", "Watching", "Eating"],
+        correct: "Selling",
+        tags: ["kid", "woman", "fruit", "job"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-11.webp",
+        sound: null,
+        question: "What is the most likely product that the woman is selling?",
+        choices: ["Fruits", "Flowers", "Beverages", "Candies"],
+        correct: "Fruits",
+        tags: ["kid", "woman", "fruit", "job"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-11.webp",
+        sound: null,
+        question: "What kind of food might the customers buy from the woman?",
+        choices: ["Fruits", "Cookies", "Ice cream", "Chips"],
+        correct: "Fruits",
+        tags: ["kid", "woman", "fruit", "job"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-11.webp",
+        sound: null,
+        question: "Which of the following might the woman be selling?",
+        choices: ["Books", "Fruits", "Toys", "Movies"],
+        correct: "Fruits",
+        tags: ["kid", "woman", "fruit", "job"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-11.webp",
+        sound: null,
+        question: "What kind of food stand is shown in the image?",
+        choices: ["Fruit stand", "Ice cream stand", "Burger stand", "Pizza stand"],
+        correct: "Fruit stand",
+        tags: ["kid", "woman", "fruit", "job"]
+    },
+    {
+        type: ["text", "image"],
+        image: "assets/questions/easy-11.webp",
+        sound: null,
+        question: "Who might be running the stand?",
+        choices: ["A woman", "A kid", "A man", "A boy"],
+        correct: "A woman",
+        tags: ["kid", "woman", "fruit", "job"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-12.mp3",
+        question: "What is the boy planning to do tomorrow?",
+        choices: ["Run", "Swim", "Play", "Study"],
+        correct: "Swim",
+        tags: ["kid", "boy", "swim", "hobby"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-12.mp3",
+        question: "At what time does the boy want to swim?",
+        choices: ["3 pm", "4 pm", "5 pm", "6 pm"],
+        correct: "5 pm",
+        tags: ["kid", "boy", "swim", "hobby"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-12.mp3",
+        question: "Where does the boy plan to swim?",
+        choices: ["At a lake", "At the beach", "At his school swimming pool", "In the river"],
+        correct: "At his school swimming pool",
+        tags: ["kid", "boy", "swim", "hobby"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-12.mp3",
+        question: "How many friends is the boy planning to swim with?",
+        choices: ["1", "2", "3", "4"],
+        correct: "3",
+        tags: ["kid", "boy", "swim", "hobby"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-12.mp3",
+        question: "Who does the boy want to swim with?",
+        choices: ["Family", "His classmates", "Friends", "Teachers"],
+        correct: "Friends",
+        tags: ["kid", "boy", "swim", "hobby"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-12.mp3",
+        question: "What activity is the boy planning for tomorrow?",
+        choices: ["Reading", "Running", "Swimming", "Singing"],
+        correct: "Swimming",
+        tags: ["kid", "boy", "swim", "hobby"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-12.mp3",
+        question: "When is the boy planning to swim?",
+        choices: ["Today", "Tomorrow", "Next Week", "Yesterday"],
+        correct: "Tomorrow",
+        tags: ["kid", "boy", "swim", "hobby"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-12.mp3",
+        question: "What location does the boy mention for swimming?",
+        choices: ["Community pool", "His school swimming pool", "River", "Ocean"],
+        correct: "His school swimming pool",
+        tags: ["kid", "boy", "swim", "hobby"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-12.mp3",
+        question: "How many people will be in the group including the boy?",
+        choices: ["2", "3", "4", "5"],
+        correct: "4",
+        tags: ["kid", "boy", "swim", "hobby"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-12.mp3",
+        question: "Does the boy mention the day of his swimming plan?",
+        choices: ["Yes, tomorrow", "No, today", "Yes, yesterday", "No, next week"],
+        correct: "Yes, tomorrow",
+        tags: ["kid", "boy", "swim", "hobby"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-12.mp3",
+        question: "What time is mentioned for swimming?",
+        choices: ["3 pm", "4 pm", "5 pm", "6 pm"],
+        correct: "5 pm",
+        tags: ["kid", "boy", "swim", "hobby"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-12.mp3",
+        question: "Who is accompanying the boy to swim?",
+        choices: ["His teacher", "His friends", "His parents", "His dog"],
+        correct: "His friends",
+        tags: ["kid", "boy", "swim", "hobby"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-12.mp3",
+        question: "What is the boy’s plan related to?",
+        choices: ["Homework", "A swimming activity", "Cycling", "Watching TV"],
+        correct: "A swimming activity",
+        tags: ["kid", "boy", "swim", "hobby"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-12.mp3",
+        question: "How many friends will join the boy?",
+        choices: ["2", "3", "4", "5"],
+        correct: "3",
+        tags: ["kid", "boy", "swim", "hobby"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-12.mp3",
+        question: "Is the boy swimming alone?",
+        choices: ["Yes", "No, with 3 friends", "No, with family", "Yes, with 1 friend"],
+        correct: "No, with 3 friends",
+        tags: ["kid", "boy", "swim", "hobby"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-12.mp3",
+        question: "What kind of place does the boy mention for his plan?",
+        choices: ["Playground", "Swimming pool", "Library", "Sports field"],
+        correct: "Swimming pool",
+        tags: ["kid", "boy", "swim", "hobby"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-12.mp3",
+        question: "What specific activity is the boy planning?",
+        choices: ["Swimming", "Running", "Playing soccer", "Reading"],
+        correct: "Swimming",
+        tags: ["kid", "boy", "swim", "hobby"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-12.mp3",
+        question: "What time is mentioned in the boy's plan?",
+        choices: ["3 pm", "4 pm", "5 pm", "6 pm"],
+        correct: "5 pm",
+        tags: ["kid", "boy", "swim", "hobby"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-13.mp3",
+        question: "When is the birthday?",
+        choices: ["Next month", "Next week", "Tomorrow", "Today"],
+        correct: "Next month",
+        tags: ["woman", "shopping", "birthday", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-13.mp3",
+        question: "How old will her mom be?",
+        choices: ["40", "45", "50", "60"],
+        correct: "50",
+        tags: ["woman", "shopping", "birthday", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-13.mp3",
+        question: "On which date is the birthday?",
+        choices: ["21", "22", "23", "24"],
+        correct: "23",
+        tags: ["woman", "shopping", "birthday", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-13.mp3",
+        question: "What does she want to buy for her mom?",
+        choices: ["Shoes", "Dress", "Jewelry", "Hat"],
+        correct: "Dress",
+        tags: ["woman", "shopping", "birthday", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-13.mp3",
+        question: "What color dress does she want to buy?",
+        choices: ["Red", "Blue", "Pink", "Green"],
+        correct: "Pink",
+        tags: ["woman", "shopping", "birthday", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-13.mp3",
+        question: "Who is having a birthday next month?",
+        choices: ["Her dad", "Her mom", "Her sister", "Her friend"],
+        correct: "Her mom",
+        tags: ["woman", "shopping", "birthday", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-13.mp3",
+        question: "What event is happening on the 23rd?",
+        choices: ["A wedding", "A birthday", "A graduation", "A holiday"],
+        correct: "A birthday",
+        tags: ["woman", "shopping", "birthday", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-13.mp3",
+        question: "Who is turning 50 years old?",
+        choices: ["Her sister", "Her aunt", "Her mom", "Her grandmother"],
+        correct: "Her mom",
+        tags: ["woman", "shopping", "birthday", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-13.mp3",
+        question: "What does she want to do for her mom?",
+        choices: ["Buy a gift", "Throw a party", "Sing a song", "Bake a cake"],
+        correct: "Buy a gift",
+        tags: ["woman", "shopping", "birthday", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-13.mp3",
+        question: "What month will the birthday be?",
+        choices: ["This month", "Next month", "Last month", "Two months later"],
+        correct: "Next month",
+        tags: ["woman", "shopping", "birthday", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-13.mp3",
+        question: "What kind of dress does she want to buy?",
+        choices: ["Pink", "Blue", "Green", "Yellow"],
+        correct: "Pink",
+        tags: ["woman", "shopping", "birthday", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-13.mp3",
+        question: "What will be the special occasion?",
+        choices: ["A trip", "A party", "A birthday", "A holiday"],
+        correct: "A birthday",
+        tags: ["woman", "shopping", "birthday", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-13.mp3",
+        question: "What gift is she planning to buy?",
+        choices: ["A necklace", "A pink dress", "A pair of shoes", "A bracelet"],
+        correct: "A pink dress",
+        tags: ["woman", "shopping", "birthday", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-13.mp3",
+        question: "What is the age her mom will turn?",
+        choices: ["45", "50", "55", "60"],
+        correct: "50",
+        tags: ["woman", "shopping", "birthday", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-13.mp3",
+        question: "What will happen next month?",
+        choices: ["A party", "A graduation", "A wedding", "A birthday"],
+        correct: "A birthday",
+        tags: ["woman", "shopping", "birthday", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-13.mp3",
+        question: "When will her mom's birthday be?",
+        choices: ["Next week", "Next month", "Tomorrow", "Next year"],
+        correct: "Next month",
+        tags: ["woman", "shopping", "birthday", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-13.mp3",
+        question: "What does she want to buy for the birthday?",
+        choices: ["A gift", "A cake", "A card", "Flowers"],
+        correct: "A gift",
+        tags: ["woman", "shopping", "birthday", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-13.mp3",
+        question: "What kind of party will it be?",
+        choices: ["A birthday party", "A graduation party", "A wedding party", "A farewell party"],
+        correct: "A birthday party",
+        tags: ["woman", "shopping", "birthday", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-13.mp3",
+        question: "Who will she buy the dress for?",
+        choices: ["Her sister", "Her mom", "Her friend", "Her grandmother"],
+        correct: "Her mom",
+        tags: ["woman", "shopping", "birthday", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-13.mp3",
+        question: "How old will her mom turn?",
+        choices: ["50", "40", "60", "55"],
+        correct: "50",
+        tags: ["woman", "shopping", "birthday", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-14.mp3",
+        question: "What are the girl's hobbies?",
+        choices: ["Singing and dancing", "Painting and swimming", "Reading and writing", "Playing and drawing"],
+        correct: "Singing and dancing",
+        "tags" : ["kids","girl","sing","dance","hobby"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-14.mp3",
+        question: "What does the girl dream of becoming?",
+        choices: ["A doctor", "A dancer", "An artist", "A teacher"],
+        correct: "An artist",
+        "tags" : ["kids","girl","sing","dance","hobby"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-14.mp3",
+        question: "What does the girl enjoy doing?",
+        choices: ["Singing and dancing", "Reading and cooking", "Drawing and writing", "Swimming and running"],
+        correct: "Singing and dancing",
+        "tags" : ["kids","girl","sing","dance","hobby"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-14.mp3",
+        question: "What are the two hobbies mentioned?",
+        choices: ["Singing and dancing", "Singing and swimming", "Dancing and cooking", "Writing and painting"],
+        correct: "Singing and dancing",
+        "tags" : ["kids","girl","sing","dance","hobby"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-14.mp3",
+        question: "What future goal does the girl have?",
+        choices: ["To be an artist", "To be a doctor", "To be a teacher", "To be a singer"],
+        correct: "To be an artist",
+        "tags" : ["kids","girl","sing","dance","hobby"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-14.mp3",
+        question: "What does the girl dream of?",
+        choices: ["Becoming an artist", "Becoming a singer", "Becoming a teacher", "Becoming a writer"],
+        correct: "Becoming an artist",
+        "tags" : ["kids","girl","sing","dance","hobby"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-14.mp3",
+        question: "Which activity is not mentioned?",
+        choices: ["Singing", "Dancing", "Cooking", "Dancing"],
+        correct: "Cooking",
+        "tags" : ["kids","girl","sing","dance","hobby"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-14.mp3",
+        question: "What artistic talent does the girl dream of having?",
+        choices: ["Being an artist", "Being a teacher", "Being a doctor", "Being a dancer"],
+        correct: "Being an artist",
+        "tags" : ["kids","girl","sing","dance","hobby"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-14.mp3",
+        question: "What does the girl want to become in the future?",
+        choices: ["A teacher", "An artist", "A doctor", "A dancer"],
+        correct: "An artist",
+        "tags" : ["kids","girl","sing","dance","hobby"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-15.mp3",
+        question: "When did the boy visit his grandparents' house?",
+        choices: ["One month ago", "Two months ago", "Three months ago", "A week ago"],
+        correct: "Two months ago",
+        tags: ["kids", "boy", "holiday"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-15.mp3",
+        question: "Whose house did the boy visit?",
+        choices: ["His friends'", "His grandparents'", "His uncle's", "His aunt's"],
+        correct: "His grandparents'",
+        tags: ["kids", "boy", "holiday"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-15.mp3",
+        question: "What kind of animals did the boy see at his grandparents' house?",
+        choices: ["Dogs", "Birds", "Cats", "Fish"],
+        correct: "Cats",
+        tags: ["kids", "boy", "holiday"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-15.mp3",
+        question: "How many cats did the boy see?",
+        choices: ["A few", "Many", "One", "None"],
+        correct: "Many",
+        tags: ["kids", "boy", "holiday"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-15.mp3",
+        question: "What was nearby the boy's grandparents' house?",
+        choices: ["A shopping mall", "A beautiful park", "A school", "A lake"],
+        correct: "A beautiful park",
+        tags: ["kids", "boy", "holiday"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-15.mp3",
+        question: "What type of place did the boy visit?",
+        choices: ["A zoo", "A park", "A house", "A museum"],
+        correct: "A house",
+        tags: ["kids", "boy", "holiday"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-16.mp3",
+        question: "What subject is the girl having an exam in?",
+        choices: ["Math", "Science", "English", "History"],
+        correct: "Math",
+        tags: ["kids", "girl", "school"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-16.mp3",
+        question: "How many days are left until the exam?",
+        choices: ["1 day", "2 days", "3 days", "4 days"],
+        correct: "2 days",
+        tags: ["kids", "girl", "school"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-16.mp3",
+        question: "Who is coming to study with her?",
+        choices: ["Sarah", "William, Diana, and Patrick", "John and Alice", "Mike"],
+        correct: "William, Diana, and Patrick",
+        tags: ["kids", "girl", "school"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-16.mp3",
+        question: "Where will they study?",
+        choices: ["At school", "At the library", "At her house", "At the park"],
+        correct: "At her house",
+        tags: ["kids", "girl", "school"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-16.mp3",
+        question: "What time of day will they study?",
+        choices: ["Morning", "Afternoon", "Evening", "Night"],
+        correct: "Evening",
+        tags: ["kids", "girl", "school"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-16.mp3",
+        question: "What are they going to do at her house?",
+        choices: ["Watch a movie", "Play games", "Study", "Eat dinner"],
+        correct: "Study",
+        tags: ["kids", "girl", "school"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-16.mp3",
+        question: "How many friends are studying with her?",
+        choices: ["1", "2", "3", "4"],
+        correct: "3",
+        tags: ["kids", "girl", "school"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-16.mp3",
+        question: "What is the relationship between the girl and her friends?",
+        choices: ["Classmates", "Neighbors", "Cousins", "Strangers"],
+        correct: "Classmates",
+        tags: ["kids", "girl", "school"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-16.mp3",
+        question: "Why is it important for her to study with friends?",
+        choices: ["To have fun", "To get help", "To eat snacks", "To play games"],
+        correct: "To get help",
+        tags: ["kids", "girl", "school"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-17.mp3",
+        question: "How many dolls does the girl have in her room?",
+        choices: ["10", "15", "20", "25"],
+        correct: "15",
+        tags: ["kids", "girl", "school"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-17.mp3",
+        question: "What is the name of the girl's favorite doll?",
+        choices: ["Lola", "Chiko", "Roxy", "Bunny"],
+        correct: "Chiko",
+        tags: ["kids", "girl", "school"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-17.mp3",
+        question: "What color is Chiko?",
+        choices: ["Blue", "Pink", "Yellow", "Green"],
+        correct: "Pink",
+        tags: ["kids", "girl", "school"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-17.mp3",
+        question: "What kind of animal is Chiko?",
+        choices: ["Cat", "Dog", "Rabbit", "Bear"],
+        correct: "Dog",
+        tags: ["kids", "girl", "school"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-17.mp3",
+        question: "What feature does Chiko have?",
+        choices: ["Wings", "Smiley face", "Glasses", "Hat"],
+        correct: "Smiley face",
+        tags: ["kids", "girl", "school"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-17.mp3",
+        question: "Where does the girl keep her dolls?",
+        choices: ["In the kitchen", "In the garden", "In her room", "In the living room"],
+        correct: "In her room",
+        tags: ["kids", "girl", "school"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-17.mp3",
+        question: "Does the girl like Chiko?",
+        choices: ["Yes", "No", "Maybe", "Not mentioned"],
+        correct: "Yes",
+        tags: ["kids", "girl", "school"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-17.mp3",
+        question: "Which doll does the girl mention first?",
+        choices: ["Chiko", "Bunny", "Teddy", "Dolly"],
+        correct: "Chiko",
+        tags: ["kids", "girl", "school"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-18.mp3",
+        question: "What sport does the boy love?",
+        choices: ["Basketball", "Football", "Tennis", "Cricket"],
+        correct: "Football",
+        tags: ["kids", "boy", "football", "hobby", "sports", "school"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-18.mp3",
+        question: "Who does he usually play with?",
+        choices: ["His parents", "His friends from school", "His neighbors", "His coach"],
+        correct: "His friends from school",
+        tags: ["kids", "boy", "football", "hobby", "sports", "school"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-18.mp3",
+        question: "When does he usually play football?",
+        choices: ["In the morning", "During physical education class", "After school", "On weekends"],
+        correct: "During physical education class",
+        tags: ["kids", "boy", "football", "hobby", "sports", "school"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-18.mp3",
+        question: "Who is his favorite football player?",
+        choices: ["Cristiano Ronaldo", "Lionel Messi", "Neymar", "Pele"],
+        correct: "Lionel Messi",
+        tags: ["kids", "boy", "football", "hobby", "sports", "school"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-18.mp3",
+        question: "What does he think about Messi and Ronaldo?",
+        choices: ["Messi is better than Ronaldo", "Ronaldo is better than Messi", "They are equal", "He doesn't know"],
+        correct: "Messi is better than Ronaldo",
+        tags: ["kids", "boy", "football", "hobby", "sports", "school"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-18.mp3",
+        question: "What is a hobby mentioned in the audio?",
+        choices: ["Reading", "Swimming", "Playing football", "Drawing"],
+        correct: "Playing football",
+        tags: ["kids", "boy", "football", "hobby", "sports", "school"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-18.mp3",
+        question: "What kind of class is he playing football in?",
+        choices: ["Math class", "Physical education class", "Art class", "Science class"],
+        correct: "Physical education class",
+        tags: ["kids", "boy", "football", "hobby", "sports", "school"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-19.mp3",
+        question: "Where does the man love to play?",
+        choices: ["At home", "At the park", "At school", "At the beach"],
+        correct: "At the park",
+        tags: ["man", "family", "parent", "parenting", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-19.mp3",
+        question: "How many children does the man have?",
+        choices: ["One", "Two", "Three", "Four"],
+        correct: "Three",
+        tags: ["man", "family", "parent", "parenting", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-19.mp3",
+        question: "What are the genders of the man's children?",
+        choices: ["All boys", "All girls", "Two sons and one daughter", "One son and two daughters"],
+        correct: "Two sons and one daughter",
+        tags: ["man", "family", "parent", "parenting", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-19.mp3",
+        question: "Who does the man play with at the park?",
+        choices: ["His friends", "His wife and children", "Strangers", "His parents"],
+        correct: "His wife and children",
+        tags: ["man", "family", "parent", "parenting", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-19.mp3",
+        question: "What day does the man plan to visit the park again?",
+        choices: ["Next Saturday", "Next Sunday", "Tomorrow", "This Friday"],
+        correct: "Next Sunday",
+        tags: ["man", "family", "parent", "parenting", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-19.mp3",
+        question: "What is the relationship of the woman mentioned?",
+        choices: ["Sister", "Wife", "Friend", "Mother"],
+        correct: "Wife",
+        tags: ["man", "family", "parent", "parenting", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-19.mp3",
+        question: "What is the main theme of the audio?",
+        choices: ["Cooking", "Shopping", "Family activities", "School activities"],
+        correct: "Family activities",
+        tags: ["man", "family", "parent", "parenting", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-20.mp3",
+        question: "Where does the woman work?",
+        choices: ["At a school", "At a shopping mall", "At a restaurant", "At a park"],
+        correct: "At a shopping mall",
+        tags: ["woman", "family", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-20.mp3",
+        question: "What is near the woman's workplace?",
+        choices: ["A river", "The mountains", "A lake", "A forest"],
+        correct: "A lake",
+        tags: ["woman", "family", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-20.mp3",
+        question: "How does the view make her feel?",
+        choices: ["Happy", "Sad", "Like a princess", "Tired"],
+        correct: "Like a princess",
+        tags: ["woman", "family", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-20.mp3",
+        question: "What does she often do with the view?",
+        choices: ["Draw it", "Take pictures of it", "Ignore it", "Describe it"],
+        correct: "Take pictures of it",
+        tags: ["woman", "family", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-20.mp3",
+        question: "Who does she share the pictures with?",
+        choices: ["Her friends", "Her family", "Her coworkers", "Her neighbors"],
+        correct: "Her family",
+        tags: ["woman", "family", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-20.mp3",
+        question: "What type of pictures does she take?",
+        choices: ["Selfies", "Pictures of her friends", "Pictures of the view", "Pictures of her food"],
+        correct: "Pictures of the view",
+        tags: ["woman", "family", "activity"]
+    },
+    {
+        type: ["text", "sound"],
+        image: null,
+        sound: "assets/questions/easy-20.mp3",
+        question: "Is the view described as beautiful?",
+        choices: ["Yes", "No", "Not sure", "Only sometimes"],
+        correct: "Yes",
+        tags: ["woman", "family", "activity"]
+    },
+    {
         type: ["text"],
         image: null,
         sound: null,
